@@ -1,5 +1,5 @@
 def f(a, b, c):
-    return int(a == b or c == b)
+    return int((a == (b or c)) == b)
 
 print('a b c | f(a, b, c)')
 for a in 0, 1:
